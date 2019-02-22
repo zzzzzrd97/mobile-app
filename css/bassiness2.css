@@ -1,0 +1,29 @@
+.Iwant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.jian{
+    position: absolute;
+    top: 0;
+    right: 1.6rem;
+}
+.Iwant>span{
+    font-size: 0.36rem;
+    position: absolute;
+    top: 0.78rem;
+    right: 0.7rem;
+}
+.Iwant>span{
+    font-size: 0.26rem;
+}
+.money>.p1{
+    color: #f1a503;
+}
+.goPay{
+    background: #f1a503;
+}
+.icon-gengduo {
+    margin-left: 0.31rem;
+}

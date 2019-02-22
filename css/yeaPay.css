@@ -1,0 +1,225 @@
+#top{
+    width: 100%;
+    height: 0.88rem;
+    background: #f1a503;
+
+}
+.limted{
+    width: 100%;
+    height: 100%;
+    padding:0 0.24rem;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 0 auto;
+}
+.return>i{
+    width:0.34rem;
+    height: 0.34rem;
+    background: white;
+    color: #f1a503;
+    border-radius: 50%;
+}
+#show{
+    width: 100%;
+    height: 2.89rem;
+    padding: 0.24rem;
+}
+.showWhat{
+    width: 100%;
+    height: 1.33rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(241, 165, 3, 0.5);
+    padding-top: 0.23rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.68rem;
+}
+.showPic{
+    width: 0.76rem;
+    height: 0.83rem;
+    margin-left: 0.28rem;
+    background: #ff52aa;
+}
+.showPic>img{
+    width: 100%;
+    height: 100%;
+}
+.showMy{
+    width: 1.45rem;
+    height: 100%;
+    margin-left: 0.31rem;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 0.26rem;
+    color: #010101;
+    margin-bottom: 0.03rem;
+}
+.redFont{
+    font-size: 0.2rem;
+    color: #ff008a;
+    margin-top: 0.17rem;
+}
+.showMy>hr{
+    border: dashed 0.005rem #bfbfbf;
+}
+.showPicCue{
+    width: 1.5rem;
+    height: 0.5rem;
+    margin-top: 0.15rem;
+    margin-left: 1.02rem;
+}
+.showPicCue>p{
+    line-height: 0.25rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.6);
+}
+.otherChoice{
+    width: 62.4%;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.otherChoice>a>span{
+    width: 1.51rem;
+    height: 100%;
+    background: #f1a503;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+    color: white;
+    float: left;
+    padding-top: 0.045rem;
+    padding-left: 0.27rem;
+}
+#sec{
+    float: right;
+}
+#showOther{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    padding: 0.24rem;
+    position: fixed;
+}
+.soTitle{
+    width: 2.25rem;
+    height: 0.57rem;
+    margin: 0 auto;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.295rem;
+    color: #f1a503;
+    margin-bottom: 0.23rem;
+}
+#smaFont{
+    font-size: 0.28rem;
+}
+#showList{
+    width: 100%;
+    height: 7.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slCont{
+    width: 100%;
+    height: 1.38rem;
+    background: white;
+    border-radius: 0.1rem;
+}
+#likeOrNot{
+    width: 100%;
+    height:7.85rem;
+    background: #f1f0f0;
+}
+#likeOrNot>.header{
+    width: 100%;
+    height: 0.76rem;
+    line-height: 0.76rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #ff2970;
+}
+#likeOrNot>ul{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#likeOrNot>ul>li{
+    width: 100%;
+    height: 1.38rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+}
+#likeOrNot>ul>li>img{
+    width:0.96rem;
+    margin-left: 0.24rem;
+    margin-top:0.1rem;
+    margin-bottom: 0.1rem;
+}
+.introduce{
+    margin-left: 0.24rem;
+    width: 100%;
+}
+.introduce>p{
+    font-size: 0.24rem;
+}
+.introduce>hr {
+    width: 1.43rem;
+    height: 0.01rem;
+    border: none;
+    border-top: 0.01rem dashed #bfbfbf;
+}
+.introduce>.p1{
+    font-size: 0.26rem;
+    color: #010101;
+}
+.introduce>.p2{
+    font-size: 0.24rem;
+    color: #746f6f;
+}
+.introduce>.p3{
+    display:block;
+    font-size: 0.18rem;
+    color: #ff008a;
+    position: relative;
+}
+.introduce>.p3>span{
+    position: absolute;
+    top: 0;
+    left:1.38rem;
+    color: #f2d222;
+}
+.introduce>.p4{
+    font-size: 0.18rem;
+    color:#9a9787;
+}
+.p4>.icon-waimai-{
+    margin-right: 0.18rem;
+}
+.introduce>.p4>span{
+    margin-left: 0.18rem;
+    font-size: 0.18rem;
+}
+.intoCar {
+    width: 1.21rem;
+    height: 100%;
+    border-radius: 0 0.1rem 0.1rem 0;
+    margin-right: 0.24rem;
+}
+.intoCar>img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.47rem;
+    margin-left: 0.39rem;
+}

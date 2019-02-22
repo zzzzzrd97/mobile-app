@@ -1,0 +1,20 @@
+.told{
+    width: 2.5rem;
+    height: 0.2rem;
+    /*background: red;*/
+    position: absolute;
+    top: 0.54rem;
+    left: 1.07rem;
+    color:#f03737;
+    font-size: 0.18rem;
+    line-height: 0.2rem;
+}
+.told>img{
+    width: 0.19rem;
+    height: 0.19rem;
+    float: left;
+}
+.told>span{
+    margin-left: 0.02rem;
+    float: left;
+}

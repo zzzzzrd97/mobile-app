@@ -1,0 +1,61 @@
+#cover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.payCont{
+    width: 5.83rem;
+    height: 3.58rem;
+    background: #fff;
+    position: absolute;
+    top: 5.61rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    padding-top: 0.18rem;
+}
+.goRN{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    color: #f1a503;
+    margin-bottom: 0.22rem;
+}
+.goRN>i{
+    margin-left: 0.19rem;
+}
+.goRN>span{
+    margin-left: 1.66rem;
+}
+.showPrice{
+    width: 100%;
+    height: 0.64rem;
+    border-top: solid 0.02rem #eee;
+    border-bottom: solid 0.02rem #eee;
+    font-size: 0.26rem;
+    color: #f1a503;
+    line-height: 0.64rem;
+    text-align: center;
+}
+.payCont>img{
+    width: 0.89rem;
+    height: 0.89rem;
+    margin: 0.25rem auto 0;
+}
+.payCont>p{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.6);
+}
+#diyi{
+    margin-top: 0.23rem;
+    margin-left: 2.62rem;
+}
+#dier{
+    margin-left: 2.35rem;
+    margin-top: 0.15rem;
+}

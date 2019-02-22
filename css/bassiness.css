@@ -1,0 +1,270 @@
+#cardList{
+    width: 100%;
+    height: 1.67rem;
+    padding-top: 0.94rem;
+}
+#sa{
+    width: 1.14rem;
+}
+.headBackg{
+    width: 6.99rem;
+    height: 0.38rem;
+    margin: 0 auto;
+    color: white;
+    font-size: 0.35rem;
+    line-height: 0.38rem;
+    padding-top: 0.025rem;
+    margin-bottom: 0.2rem;
+}
+.headBackg>li{
+    float: left;
+}
+.headBackg>li>i{
+    color:#f1a503;
+    width: 0.34rem;
+    height: 0.34rem;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 0.34rem;
+}
+.icon-icon_on_the_left{
+    margin-left: 0.24rem;
+}
+.headBackg>li>span{
+    margin-left: 2.62rem;
+}
+#rt>i{
+    margin-left: 0.3rem;
+}
+.headBackg>li:nth-child(3){
+    margin-left: 1.59rem;
+}
+#backg>i{
+    color:#f1a503;
+    width: 0.34rem;
+    height: 0.34rem;
+    background: #fff;
+    border-radius: 50%;
+}
+.order{
+    width: 0.74rem;
+    height: 100%;
+    background: rgba(249,144,50,0.6);
+    border-radius: 0.1rem;
+}
+.order>p{
+    color: #fff;
+    font-size: 0.24rem;
+}
+.oneColor{
+    background: #f93294;
+}
+.shangJCont{
+    width: 5.5rem;
+    height: 100%;
+    padding: 0 0 0.16rem 0.24rem;
+    color: rgba(0,0,0,0.6);
+}
+.shangJCont>li{
+    font-size: 0.18rem;
+}
+.shangJCont>li>i{
+    line-height: 0.12rem;
+    color: rgba(0,0,0,0.6);
+}
+#titleFT{
+    font-size: 0.24rem;
+}
+.shangJCont>li:nth-child(3){
+    margin-top: 0.15rem;
+}
+.FSco{
+    color: #ff0ebe;
+}
+.FSco2{
+    color: #0e4cff;
+}
+/*点单部分开始*/
+#foodList{
+    width: 100%;
+    height: 100%;
+    background:#eee;
+    position: fixed;
+}
+.foodBox{
+    width: 7.5rem;
+    height: 100%;
+    padding-top: 0.24rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.foodMenu {
+    width: 0.76rem;
+    height: 3.31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.basic{
+    width: 0.76rem;
+    height: 0.35rem;
+    color: #f1a503;
+    font-size: 0.24rem;
+    text-align: center;
+    border: 0.01rem solid #f1a503;
+    border-radius: 0.1rem;
+}
+.active{
+    background: #f1a503;
+    color: #fff;
+}
+.foodBox>ul{
+    width: 6.07rem;
+    height: 1.38rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+}
+.foodBox>ul>li{
+    width: 100%;
+    height: 1.38rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    display: flex;
+    margin-bottom: 0.24rem;
+}
+#foodList>ul>li>img{
+    width:0.96rem;
+    height: 1.18rem;
+    margin-left: 0.12rem;
+    margin-top: 0.1rem;
+}
+.insImg{
+    width: 0.96rem;
+    height: 1.18rem;
+    margin-top: 0.1rem;
+    margin-left: 0.12rem;
+}
+.insImg>img{
+    width: 100%;
+    height: 100%;
+}
+.introduce2{
+    margin-left: 0.2rem;
+    width: 4.15rem;
+}
+.introduce2>hr {
+    width: 1.43rem;
+    height: 0.01rem;
+    border: none;
+    border-top: 0.01rem dashed #bfbfbf;
+}
+.introduce2>.p1{
+    font-size: 0.26rem;
+    color: #010101;
+}
+.introduce2>.p2{
+    margin-top: 0.16rem;
+    font-size: 0.2rem;
+    color: #ff008a;
+}.introduce2>.p2>span{
+    margin-left:0.49rem;
+     color: #f2d222;
+ }
+.introduce2>.p3{
+    display:block;
+    font-size: 0.18rem;
+    color: #9a9787;
+    position: relative;
+}
+.introduce2>.p3>span{
+    color: #ff339b;
+}
+.introduce2>.p4{
+    font-size: 0.18rem;
+    color:#f1a503;
+}
+.introduce2>.p4>span{
+    margin-left: 0.18rem;
+    font-size: 0.18rem;
+}
+.Iwant{
+    width: 1rem;
+    height: 100%;
+    border-radius: 0 0.1rem 0.1rem 0;
+    position: relative;
+}
+.Iwant>a>img{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    top: 0.79rem;
+    left: 0.33rem;
+}
+/*点单部分结束*/
+/*底部开始*/
+#foodCar{
+    width: 100%;
+    height: 1.09rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    float: left;
+}
+#foodCar2{
+    width: 6.99rem;
+    margin: 0 auto;
+}
+.gouWC{
+    width: 0.51rem;
+    height: 100%;
+    margin-left: 0.52rem;
+    float: left;
+}
+.gouWC>img{
+    width: 0.51rem;
+    height: 0.51rem;
+}
+.money {
+    width: 0.98rem;
+    height: 1.09rem;
+    float: left;
+    line-height: 0.46rem;
+    text-align: center;
+    font-size: 0.24rem;
+    position: relative;
+    margin-left: 0.24rem;
+}
+.money>p{
+    display: inline;
+}
+.money>.p1{
+    color: #000;
+    font-size: 0.24rem;
+    position: absolute;
+    top: -0.15rem;
+    left: 0;
+}
+.money>.p2{
+    font-size: 0.18rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 0;
+}
+.goPay{
+    text-align: center;
+    line-height: 0.46rem;
+    font-size: 0.24rem;
+    color: #fff;
+    width: 1.11rem;
+    height: 0.46rem;
+    border-radius: 0.23rem;
+    background: rgba(0,0,0,0.6);
+    margin-left: 5.88rem;
+    margin-top: 0.32rem;
+}
+/*底部结束*/
