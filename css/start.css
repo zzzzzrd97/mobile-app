@@ -68,7 +68,7 @@ body>img{
     position: relative;
 }
 .inputNeiR>input{
-    width: 2.3rem;
+    width: 2rem;
     height: 0.4rem;
     border: none;
     font-size: 0.2rem;
@@ -89,7 +89,7 @@ body>img{
     margin-bottom: 0.35rem;
 }
 .dianji1{
-    width: 1.1rem;
+    /*width: 1.1rem;*/
     height: 0.18rem;
 }
 .dianji1>input {
